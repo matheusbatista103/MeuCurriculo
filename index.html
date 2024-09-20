@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo - Matheus de Pauli Batista</title>
-    <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <header>
@@ -13,9 +13,14 @@
         </div>
     </header>
 
-    <nav>
+    <div class="menu-mobile">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+    <nav class="canto">
         <ul class="lista">
-            <h1>Matheus de Pauli Batista</h1>
+            <h1>Matheus Batista</h1>
             <li><a href="#sobre-mim">Sobre Mim</a></li>
             <li><a href="#educacao">Educação</a></li>
             <li><a href="#habilidades">Habilidades</a></li>
@@ -28,84 +33,134 @@
         <section id="sobre-mim" class="secao">
             <div class="container">    
                 <h2>Sobre Mim</h2>
-                <img src="img/img01.jpg" alt="Minha foto" class="imagem-esquerda">
+                <img src="img/homem-usuario.png" alt="Minha foto" class="imagem-esquerda">
                 <p>Sou um estudante de Tecnologia da Informação com experiência em desenvolvimento web e uma paixão por programação. Proativo e autodidata, busco uma oportunidade para aplicar minhas habilidades em projetos desafiadores e inovadores. Estou constantemente aprendendo e me atualizando sobre as novas tecnologias e tendências do setor. Tenho uma forte capacidade de resolver problemas e trabalhar em equipe, e estou sempre em busca de novas formas de melhorar e expandir minhas competências. Minha meta é encontrar um ambiente onde eu possa contribuir significativamente para o sucesso dos projetos e continuar crescendo como profissional na área de tecnologia.</p>
             </div>
+            <a class="btn btn-primary" href="#contato" role="button">contatar-me</a>
         </section>
 
         <section id="educacao" class="secao">
             <div class="container">
                 <h2>Educação</h2>
-                <img src="img/img02.jpg" alt="Educação" class="imagem-direita">
                 <h3>ETEC de Ribeirão Pires</h3>
                 <p>Curso Técnico em Tecnologia da Informação para Internet<br>Previsão de Conclusão: 2027</p>
             </div>
         </section>
 
         <section id="habilidades" class="secao">
-            <div class="container">
-                <h2>Habilidades</h2>
-            </div>
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col">
+          <div class="container">
+              <h2>Habilidades</h2>
+          </div>
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+              <div class="col">
                   <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
+                      <div class="card-img-container">
+                          <img src="img/html.png" class="card-img-top" alt="HTML">
+                      </div>
+                      <div class="card-body">
+                          <h5 class="card-title">HTML</h5>
+                          <p class="card-text">Experiência avançada na criação de estruturas semânticas e acessíveis, aplicando boas práticas de SEO e acessibilidade.</p>
+                      </div>
                   </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                  </div>
-                </div>
               </div>
-        </section>
+              <div class="col">
+                  <div class="card">
+                      <div class="card-img-container">
+                          <img src="img/css-3.png" class="card-img-top" alt="CSS">
+                      </div>
+                      <div class="card-body">
+                          <h5 class="card-title">CSS</h5>
+                          <p class="card-text">Experiência no desenvolvimento de layouts responsivos e design visualmente atraente com CSS e pré-processadores.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="card">
+                      <div class="card-img-container">
+                          <img src="img/script-java.png" class="card-img-top" alt="JavaScript">
+                      </div>
+                      <div class="card-body">
+                          <h5 class="card-title">JavaScript</h5>
+                          <p class="card-text">Conhecimento em JavaScript para desenvolvimento de interatividade e funcionalidades dinâmicas em sites.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="card">
+                      <div class="card-img-container">
+                          <img src="img/python.png" class="card-img-top" alt="GitHub">
+                      </div>
+                      <div class="card-body">
+                          <h5 class="card-title">Python</h5>
+                          <p class="card-text">Aprendiz de Python, explorando o desenvolvimento de scripts e automação</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                    <div class="card-img-container">
+                        <img src="img/github.png" class="card-img-top" alt="GitHub">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">GitHub</h5>
+                        <p class="card-text">Experiência com Git e GitHub para controle de versão e colaboração, incluindo gerenciamento de branches e resolução de conflitos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                  <div class="card-img-container">
+                      <img src="img/scrum.png" class="card-img-top" alt="GitHub">
+                  </div>
+                  <div class="card-body">
+                      <h5 class="card-title">Metodologias ageis</h5>
+                      <p class="card-text">Prática com Scrum para desenvolvimento ágil e gestão de projetos, participando de sprints e reuniões diárias.</p>
+                  </div>
+              </div>
+          </div>
+          </div>
+      </section>
 
         <section id="projetos" class="secao">
             <div class="container">
                 <h2>Projetos</h2>
-                <img src="img/img01.jpg" alt="Projeto" class="imagem-direita">
-                <p>Atualmente não fiz nenhum projeto.</p>
+                <p>Não tenho nenhum projeto concluído, porém pretendo fazer esses:</p>
+
+                <p><span class="projeto-titulo">Desenvolvimento de um Aplicativo de Lista de Tarefas:</span> Criar um aplicativo de lista de tarefas que permita aos usuários adicionar, editar e remover tarefas com facilidade. O aplicativo contará com uma interface intuitiva, onde os usuários poderão categorizar suas tarefas, definir prazos e adicionar notas. Será desenvolvido usando HTML, CSS e JavaScript, e pretende-se integrar com um banco de dados simples para armazenar as informações.</p>
+
+                <p><span class="projeto-titulo">Plataforma de Anotações Online:</span> Criar uma plataforma web para anotações, onde os usuários podem fazer anotações rápidas, organizar informações e acessar suas notas a partir de qualquer dispositivo. A plataforma incluirá funcionalidades como etiquetas, busca por palavras-chave e sincronização entre dispositivos. A tecnologia principal será HTML, CSS e JavaScript, com armazenamento local para as anotações.</p>
+
+                <p><span class="projeto-titulo">Simulador de Finanças Pessoais:</span> Desenvolver um simulador de finanças pessoais que ajude os usuários a controlar e planejar seu orçamento mensal. O simulador permitirá aos usuários adicionar receitas e despesas, visualizar gráficos e relatórios de suas finanças e receber sugestões de economia. Utilizará HTML, CSS e JavaScript para a interface, com cálculos simples realizados no cliente.</p>
+
+                <p><span class="projeto-titulo">Jogo Educativo para Crianças:</span> Criar um jogo educativo voltado para crianças, com o objetivo de ensinar conceitos básicos de matemática e lógica de maneira divertida. O jogo incluirá desafios e quebra-cabeças que ajudam no desenvolvimento de habilidades cognitivas e de resolução de problemas. A tecnologia utilizada será HTML, CSS e JavaScript para garantir compatibilidade com a maioria dos navegadores.</p>
+
+                <p><span class="projeto-titulo">Gerenciador de Tempo Pessoal:</span> Desenvolver um gerenciador de tempo pessoal que ajude os usuários a organizar suas tarefas diárias e aumentar a produtividade. O gerenciador incluirá funcionalidades como calendário, alarmes e relatórios sobre como o tempo está sendo gasto. Será construído usando HTML, CSS e JavaScript, com foco em uma interface amigável e responsiva.</p>
+
             </div>
         </section>
 
         <section id="contato" class="secao">
-            <div class="container">
-                <h2>Contato</h2>
-                <ul class="contato-list">
-                    <img src="img/img02.jpg" alt="Contato" class="imagem-esquerda">
-                    <li>Endereço: Rua da Liberdade, 352, Colônia, Ribeirão Pires, São Paulo</li>
-                    <li>Telefone: <a href="tel:+5511975640708">+55 11 97564-0708</a></li>
-                    <li>E-mail: <a href="mailto:matheus.depauli2020@gmail.com">matheus.depauli2020@gmail.com</a></li>
-                </ul>
-            </div>
-        </section>
+          <div class="container">
+              <h2>Contato</h2>
+              <ul class="contato-list">
+                  <li class="contato-item">
+                      <img src="img/adress.png" alt="Ícone de endereço" class="contato-icon">
+                      <span class="contato-text">Endereço: Rua da Liberdade, 352, Colônia, Ribeirão Pires, São Paulo</span>
+                  </li>
+                  <li class="contato-item">
+                      <img src="img/telefone.png" alt="Ícone de telefone" class="contato-icon">
+                      <span class="contato-text">Telefone: <a href="tel:+5511975640708" class="contato-link">+55 11 97564-0708</a></span>
+                  </li>
+                  <li class="contato-item">
+                      <img src="img/e-mail.png" alt="Ícone de e-mail" class="contato-icon">
+                      <span class="contato-text">E-mail: <a href="mailto:matheus.depauli2020@gmail.com" class="contato-link">matheus.depauli2020@gmail.com</a></span>
+                  </li>
+              </ul>
+          </div>
+      </section>
+
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/js/mobile-navbar.js"></script>
 </body>
 </html>
