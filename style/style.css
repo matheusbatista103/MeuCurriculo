@@ -87,11 +87,8 @@ h3, h2 {
 }
 
 .container:hover {
-    transform: translateZ(-5px) translate(transition), 1s ease-out;
     background-color: #1e1f26;
-    border-radius: 10px;
     border: #ffffff83 solid 0.01px;
-    padding: 10px;
 }
 
 .container:hover {
@@ -100,7 +97,7 @@ h3, h2 {
 
 @keyframes saltar {
     0% { transform: translateY(0); }
-    50% { transform: translateY(-25px); }
+    50% { transform: translateY(-15px); }
     100% { transform: translateY(0); }
 }
 
