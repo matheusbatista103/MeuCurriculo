@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     menuButton.addEventListener('click', () => {
         canto.classList.toggle('active');
-        // Ajusta a margem do container principal quando a navbar está ativa
         if (canto.classList.contains('active')) {
             mainContainer.style.marginLeft = '250px';
         } else {
